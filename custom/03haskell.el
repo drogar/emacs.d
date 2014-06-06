@@ -1,5 +1,5 @@
-(add-to-list 'load-path "/Users/gilesb/Copy/emacspackages/hasktags-emacs")
-(add-to-list 'load-path "/Users/gilesb/Copy/emacspackages/hs-lint")
+(add-to-list 'load-path "~/.emacs.d/third-party/hasktags-emacs")
+(add-to-list 'load-path "~/.emacs.d/third-party/hs-lint")
 (require 'hs-lint)
 
 (load "hasktags")
