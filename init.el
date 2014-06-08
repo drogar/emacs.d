@@ -10,6 +10,7 @@
 (load "03haskell.el")
 (load "04-js.el")
 (load "05-latex.el")
+(load "06-git.el")
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

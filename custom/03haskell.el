@@ -24,6 +24,8 @@
 (add-hook 'haskell-mode-hook 'my-haskell-mode-hook)
 (add-hook 'haskell-mode-hook 'my-ac-hask-mode)
 
+(add-hook 'flycheck-mode-hook #'flycheck-haskell-setup)
+
 (line-number-mode 1)
 (column-number-mode 1)
 

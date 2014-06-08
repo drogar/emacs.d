@@ -17,6 +17,9 @@
 ;; Rainbow delimeters for any programming language
 (add-hook 'prog-mode-hook 'rainbow-delimiters-mode)
 
+;; Paredit mode for any programming language
+(add-hook 'prog-mode-hook 'paredit-everywhere-mode)
+
 ;; Remove trailing whitespace on save
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 ;; Use windmove bindings
