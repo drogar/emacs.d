@@ -4,6 +4,7 @@
 (setq-default TeX-master nil)
 (setq-default TeX-PDF-mode t)
 
+(setq font-latex-fontify-sectioning 'color)
 (add-hook 'LaTeX-mode-hook 'visual-line-mode)
 (add-hook 'LaTeX-mode-hook 'flyspell-mode)
 (add-hook 'LaTeX-mode-hook 'LaTeX-math-mode)

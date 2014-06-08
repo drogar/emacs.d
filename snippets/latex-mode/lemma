@@ -2,6 +2,6 @@
 # name: lemma
 # key: lem
 # --
-\begin{lemma}\label{lem:$0}
-        $1
+\begin{lemma}\label{lem:$1}
+  $0
 \end{lemma}

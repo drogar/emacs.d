@@ -27,7 +27,8 @@
 (windmove-default-keybindings)
 
 ;;(set-frame-font "-apple-Fira_Mono-medium-normal-normal-*-*-*-*-*-m-0-iso10646-1")
-
+(
+global-font-lock-mode t)
 ;; Display continuous lines
 (setq-default truncate-lines nil)
 ;; Do not use tabs for indentation

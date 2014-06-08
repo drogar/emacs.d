@@ -15,7 +15,8 @@
    "Major mode for editing Haskell scripts." t)
 (autoload 'literate-haskell-mode "haskell-mode"
    "Major mode for editing literate Haskell scripts." t)
- (setq font-lock-maximum-decoration '((haskell-mode . 2) (t . 0)))
+
+;(setq font-lock-maximum-decoration '((haskell-mode . 2) (t . 0)))
 (add-hook 'haskell-mode-hook 'turn-on-font-lock)
 (add-hook 'haskell-mode-hook 'turn-on-haskell-decl-scan)
 (add-hook 'haskell-mode-hook 'turn-on-haskell-doc-mode)
