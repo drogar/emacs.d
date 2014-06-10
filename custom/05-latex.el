@@ -1,4 +1,7 @@
 (setq exec-path (append '("/usr/texbin" "/usr/local/bin") exec-path)) ;
+
+(setq ispell-program-name "/usr/local/bin/aspell")
+
 (setq TeX-auto-save t)
 (setq TeX-parse-self t)
 (setq-default TeX-master nil)
