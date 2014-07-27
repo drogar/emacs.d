@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: proposition
+# key: prop
+# --
+\begin{proposition}\label{prop:$1}
+  $0
+\end{proposition}
